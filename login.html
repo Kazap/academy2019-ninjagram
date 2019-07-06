@@ -4,14 +4,17 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ninjagram</title>
+  <link rel="stylesheet" type="text/css" href="assets/login.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body class="login">
-  <div class="content">
-    <img src="assets/logo-dark.png" alt="Logo"/>
+  <div class="content center">
+    <img src="assets/logo.png" alt="Logo"/>
 
-    <form action="feed.html" method="GET">
+    <form class="login-form" action="feed.html" method="GET">
       <div class="input-control">
         <label for="email-input">E-mail</label>
         <input type="email" id="email-input" name="email" class="input" placeholder="Digite seu e-mail">
@@ -23,7 +26,7 @@
       </div>
 
       <div class="actions">
-        <button type="submit">
+        <button type="submit" class="center">
           Acessar
         </button>
       </div>
